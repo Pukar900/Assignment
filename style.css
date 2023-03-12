@@ -34,6 +34,7 @@ nav {
   background: #070d12;
   height: 80px;
   width: 100%;
+  z-index: fixed;
 }
 
 label.logo {
@@ -217,7 +218,6 @@ b {
 
 span {
   color: #ccc;
-  font-size: 16px;
 }
 
 .card {
@@ -259,14 +259,6 @@ span {
   right: 30%;
 }
 
-h5 {
-  color: #ccc;
-  top: 30%;
-  position: absolute;
-  font-family: 'Courier New', Courier, monospace;
-
-}
-
 /* css for portfolio */
 .me p1{
   font-family: sans-serif;
@@ -296,7 +288,15 @@ h5 {
   .column{
     padding: 0 80px;
   }
-
+  .google{
+    position: justify;
+  }
+  .NASA{
+    position: justify;
+  }
+  .teacher{
+    position: justify;
+  }
   .teacher img {
     width: auto;
     height: 200px;
@@ -338,7 +338,7 @@ b {
 /* this is for workexperience */
 
 .google {
-  position: absolute;
+  position: justify;
   display: flex;
 }
 
@@ -373,3 +373,11 @@ h2 {
   color: #f1f1f1;
 }
 
+/* site-report */
+h5 {
+  color: #ccc;
+  position: justify;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+}
