@@ -135,8 +135,6 @@ a:hover {
     font-size: 20px;
   }
 
-
-
   a:hover,
   a.active {
     background: none;
@@ -161,24 +159,30 @@ a:hover {
     background-color: #f1f1f1;
     margin-right: 20px;
   }
+  .about-me img{
+       width: 200px;
+       height: 300px;
+       display: flex;
+       flex-direction: row;
+       margin-left: 0px;
+  }
 }
-
 
 section {
   background-size: cover;
 }
 
-p {
+
+ p {
   color: #fff;
   text-align: center;
-  font-size: 50px;
-  
+  font-size: 50px; 
 }
 
-h1 {
+ h1 {
   color: #fff;
   text-align: center;
-  margin-top: 240px;
+  margin-top: 220px;
   right: 37%;
   font-size: 50px;
 }
@@ -211,9 +215,7 @@ h1 {
   resize: vertical;
 }
 
-b {
-  color: #fff;
-}
+
 
 span {
   color: #ccc;
@@ -228,42 +230,9 @@ span {
   margin-left: 20px;
 }
 
-.btn-chk {
-  background-color: blue;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 270px;
-  color: #fff;
-}
-
-.Wines {
-  display: flex;
-  margin-left: 100px;
-  font-family: 'Lucida Sans', sans-serif;
-}
-
-.next-row {
-  display: flex;
-  margin-left: 100px;
-}
-
-
-
-.work p1 {
-  color: #fff;
-  text-align: center;
-  position: absolute;
-  right: 30%;
-}
 
 /* css for portfolio */
-.me p1{
-  font-family: sans-serif;
-  font-size: 37px;
-  color: #fff;
-}
+
 
 .column {
   float: left;
@@ -277,6 +246,14 @@ span {
   clear: both;
 }
 
+h4{
+  color: #ccc;
+  font-size: 35px;
+  font-family:serif;
+  font-weight: 200;
+  margin-left: 50px;
+}
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -286,15 +263,6 @@ span {
   }
   .column{
     padding: 0 80px;
-  }
-  .google{
-    position: justify;
-  }
-  .NASA{
-    position: justify;
-  }
-  .teacher{
-    position: justify;
   }
   .teacher img {
     width: auto;
@@ -318,15 +286,14 @@ span {
   height: 400px;
 }
 
-b {
-  color: yellowgreen;
-}
+
 .about-me{
   color: #f1f1f1;
   font-size: 30px;
   margin-top: 30px;
   display: flex;
-  margin: 100px;
+  margin-top: 100px;
+  margin-left: 30px;
 }
 .about-me p2{
   margin-left: 40px;
@@ -355,6 +322,7 @@ h2 {
   font-style:normal;
   font-family: sans-serif;
   font-size: 30px;
+  margin-inline-start:  30px;
 }
 .NASA{
   margin-top: 60px;
@@ -366,15 +334,30 @@ h2 {
   display: flex;
   padding-bottom: 10px;
 }
-.about-me{
-  color: #f1f1f1;
-}
 
 /* site-report */
 h5 {
   color: #ccc;
-  position: justify;
   font-family:'Times New Roman', Times, serif;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+b {
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: justify;
+}
+h3{
+  color: #f2f2f2;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.report{
+  padding-inline-start: 60px;
+  padding-inline-end: 30px;
 }
